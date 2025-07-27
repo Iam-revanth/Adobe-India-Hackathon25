@@ -78,6 +78,7 @@ A job to be done (e.g., Plan a trip, Create forms)
 | Collection 3 | round\_1b\_001 | Food Contractor | Prepare vegetarian buffet for corporate gathering |
 
 📥 Input JSON Format
+```json
 {
   "challenge_info": {
     "challenge_id": "round_1b_002",
@@ -87,6 +88,8 @@ A job to be done (e.g., Plan a trip, Create forms)
   "persona": { "role": "Travel Planner" },
   "job_to_be_done": { "task": "Plan a 4-day trip" }
 }
+```
+```
 📤 Output JSON Format
 {
   "metadata": {
@@ -110,3 +113,4 @@ A job to be done (e.g., Plan a trip, Create forms)
     }
   ]
 }
+```
